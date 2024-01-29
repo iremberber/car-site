@@ -40,14 +40,12 @@ p{
     flex: 0 0 10%;
     position: sticky;
     top: 0;
-    background-color: #e9ecef; /* İsterseniz bir arka plan rengi ekleyebilirsiniz */
-    z-index: 1; /* Diğer elemanların üzerine çıkmasını sağlar */
+    background-color: #e9ecef; 
+    z-index: 1; 
 }
 
 .second-row {
     flex: 0 0 15%;
-    width: 94%;
-    gap: 2%;
 }
 
 .second-row :hover {
@@ -58,8 +56,15 @@ p{
     background-color: #adb5bd;
 }
 
+
+
 .third-row {
     flex: 0 0 60%;
+}
+
+.third-img{
+  display: none;
+  visibility: hidden;
 }
 
 .forth-row {
@@ -68,6 +73,10 @@ p{
 
 .col-25  {
     flex: 0 0 25%;
+    width: 94%;
+    gap: 2%;
+    border-radius: 25px;
+    margin: auto;
 }
 
 * {box-sizing: border-box}
